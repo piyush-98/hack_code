@@ -61,10 +61,15 @@ def get_comment_threads(youtube, video_id):
     print (text)
     
    #res=firebase.put("/dir","count","forward")  
+    if "extreme left" == text:
+      res=firebase.put("/","dir",1)
     if "left" == text:
-      res=firebase.put("/","dir",1)  
+      res=firebase.put("/","dir",2)  
     elif "right" == text:
-      res=firebase.put("/","dir",8)  
+      res=firebase.put("/","dir",4)
+ 
+    elif "extreme right" == text:
+      res=firebase.put("/","dir",5)
 
   return results["items"]
 
