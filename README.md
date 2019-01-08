@@ -1,2 +1,2 @@
 # somee
-https://www.youtube.com/channel/UC0LV3LUJOXbZ3HAwOr6HolA
+https://stackoverflow.com/questions/36683878/youtube-api-how-do-i-get-the-livechatid
